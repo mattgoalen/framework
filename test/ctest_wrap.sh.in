@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Expose variables needed for full tests to run correctly
 export MAKE=@MAKE_BIN@
