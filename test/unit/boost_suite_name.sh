@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Parses out test suite names from source files
 # Outputs as a list seperated by ; so that CMake interprets as a list

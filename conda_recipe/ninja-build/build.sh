@@ -1,5 +1,4 @@
-
-#!/bin/bash
+#!/usr/bin/env bash
 
 mkdir -p "${PREFIX}"
 mkdir -p "${PREFIX}/bin"

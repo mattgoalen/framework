@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 DOXY_CONFIG="$(dirname $0)/doxygen_single.cfg"
 DOXY2SWIG="$(dirname $0)/doxy2swig.py"

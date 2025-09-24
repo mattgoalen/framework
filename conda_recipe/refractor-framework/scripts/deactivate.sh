@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Restore previous env vars if they were set
 
 unset REFRACTOR_INPUT_PATH

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # These are just sample values, you will probably want to changes these
 #PBS -l select=1:ncpus=12:model=has
