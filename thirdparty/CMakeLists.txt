@@ -69,6 +69,10 @@ endif()
 list(APPEND THIRDPARTY_LIBRARIES ${HDF5_LIBRARIES})
 
 # Set up Boost
+# Enable CMP0074 so Boost_ROOT is respected
+if(POLICY CMP0074)
+  cmake_policy(SET CMP0074 NEW)
+endif()
 
 # We want to use the Conda version if it is available, and the user hasn't
 # otherwise specified a different version
